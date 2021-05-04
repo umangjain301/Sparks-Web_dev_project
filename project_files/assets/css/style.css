@@ -1,0 +1,109 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #43a1bb;
+}
+
+/* splash screen css starts here  */
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #e4eff2 url("https://media.giphy.com/media/xTk9ZvMnbIiIew7IpW/giphy.gif") no-repeat center center;
+    z-index: 99999;
+}
+/* splash screen css ends here  */
+
+/* navbar css starts here  */
+.bg-light{
+    background-color: #6f08f7!important;
+}
+
+.navbar-brand{
+    font-family: 'Rockwell', cursive;
+    font-size: 1.5rem;
+    color: #ffffff!important;
+}
+
+.nav-link{
+    color: #ffffff!important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover{
+    background-color: #269af8;
+}
+/* navbar css ends here  */
+
+/* here content css starts here  */
+.hero-content{
+    height: 100vh;
+    background-color: #3322cc;
+    color: #ffffff;
+    padding: 3rem;
+    border-top-left-radius: 58rem;
+    border-top-right-radius: 58rem;
+    border-bottom-left-radius: 12rem;
+    border-bottom-right-radius: 12rem;
+    margin-bottom: 1vh;
+}
+
+.hero-img{
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 766px) {
+    .hero-img {
+      display: none;
+    }
+}
+
+.get-started{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #fff;
+    color: #6093f3!important;
+    transition: 0.3s;
+}
+
+.get-started:hover{
+    text-decoration: none;
+    background-color: #592188;
+    
+}
+/* here content css starts here  */
+
+/* get-started-buttons css starts here*/
+.get-started-content{
+    height: 60vh;
+    background-color: #5c34ec;
+    border-top-left-radius: 42rem;
+    border-top-right-radius: 42rem;
+    border-bottom-right-radius: 42rem;
+    border-bottom-left-radius: 42rem;
+}
+
+.get-started-content .row{
+    padding: 25vh 0;
+}
+
+.get-started-content a{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #732afa;
+    color: rgb(193, 8, 250)!important;
+    transition: 0.3s;
+}
+.get-started-content a:hover{
+    background-color: #cb38f8;
+    text-decoration: none;
+}
+/* get-started-buttons css end here*/
+
